@@ -49,8 +49,35 @@ footer {
   font-family: 'Indie Flower', cursive;
 }
 
-/* @media screen and (min-width: 1100px){
-  button{
-    margin-left: 15%;
+@media screen and (max-width: 760px){
+  body{
+    padding: 20px;
   }
-} */
+  
+  h1{
+    font-size: 60px;
+    margin-bottom: 40px;
+    
+  }
+  
+  .but{
+    padding-left: 0;
+    padding-right: 0;
+
+  }
+
+  p{
+    margin-top: 30%;
+    font-size: 25px;
+  }
+
+  img{
+    height: 100px;
+  }
+
+  footer{
+    margin-top: 20%;
+    position: sticky;
+    text-align: center;
+  }
+}
